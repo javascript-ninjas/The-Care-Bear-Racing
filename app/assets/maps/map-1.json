@@ -33,11 +33,11 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"tecza.png",
+         "image":"rainbow.png",
          "imageheight":160,
          "imagewidth":40,
          "margin":0,
-         "name":"tecza",
+         "name":"rainbow",
          "properties":
             {
 
@@ -53,7 +53,7 @@
          "imageheight":240,
          "imagewidth":480,
          "margin":0,
-         "name":"bg",
+         "name":"bg-main",
          "properties":
             {
 

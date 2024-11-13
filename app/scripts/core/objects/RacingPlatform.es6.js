@@ -1,5 +1,5 @@
 class RacingPlatform extends Phaser.GameObjectFactory {
-    constructor (game, bear) {
+    constructor(game, bear) {
         super(game);
 
         this.game.time.events.loop(120, this.update, this).timer.start();
@@ -8,7 +8,7 @@ class RacingPlatform extends Phaser.GameObjectFactory {
         this.cursors = game.input.keyboard.createCursorKeys();
     }
 
-    update () {
+    update() {
         if (this.cursors.left.isDown) {
             console.log('left');
         }

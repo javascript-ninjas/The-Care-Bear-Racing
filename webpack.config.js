@@ -3,7 +3,7 @@ module.exports = {
         extensions: ['.es6.js', '.js', '']
     },
 
-    entry: './app/scripts/index',
+    entry: './app/scripts/core/main',
 
     output: {
         filename: './app/dist/game.js'
@@ -13,7 +13,7 @@ module.exports = {
         loaders: [
             {
                 test: /\.es6\.js$/,
-                exclude: 'node_modules',
+                exclude: /node_modules/,
                 loader: 'babel-loader'
             }
         ]
